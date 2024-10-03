@@ -1,0 +1,57 @@
+.columns-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 20px;
+  }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items:normal;
+    background-color: #EBECF0;
+    border-radius:  10px;
+    padding: 12px;
+    height: fit-content;
+    font-size: 18px;
+    line-height: 22px;
+    transform: translateX();
+
+}
+
+button {
+    color: #5E6C84;
+    background-color: #EBECF0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0;    
+    align-self: baseline;
+}
+
+button svg {
+    transform: translateY(1px);
+}
+
+.taks-item {
+    background-color: #FFFFFF;
+    border-radius:  10px;
+    padding: 8px;
+    font-size: 18px;
+    margin: 0px 0;
+}
+input {
+    border: none;
+    
+}
+
+.submin_button {
+    background-color: #0079BF;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+    width: fit-content;
+
+}
